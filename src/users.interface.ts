@@ -1,7 +1,10 @@
+import { UnitBook } from "./books.interface"
+
 export interface User {
-    username : string,  
-    email: string,
+    username? : string,  
+    email?: string,
     password : string
+    bookList: UnitBook[]
 }
 
 export interface UnitUser extends User {

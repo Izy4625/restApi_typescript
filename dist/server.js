@@ -38,17 +38,19 @@ const dotevnv = __importStar(require("dotenv"));
 const cors_1 = __importDefault(require("cors"));
 const helmet_1 = __importDefault(require("helmet"));
 const user_1 = require("./routes/user");
+const book_1 = __importDefault(require("./routes/book"));
 dotevnv.config();
 if (!process.env.PORT) {
     console.log(`No port value specified...`);
 }
-const PORT = parseInt(process.env.PORT, 10) || 6000;
+const PORT = parseInt(process.env.PORT, 10) || 7000;
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
 app.use((0, cors_1.default)());
 app.use((0, helmet_1.default)());
 app.use('/', user_1.userRouter);
+app.use('/', book_1.default);
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
 });

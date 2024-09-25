@@ -1,13 +1,1 @@
-
-
-{"43ceb4a3-b887-44f7-9a11-aacfbc48901a":
-{"id":"43ceb4a3-b887-44f7-9a11-aacfbc48901a","username":
-"asdgkuf","email":"yihsajkaf@fkkdm.com",
-"password":"$2a$10$/iAYBkIXxe8u7DRizwvBM.XLHstEQ11CVkq2591v6YNNGsxme21v6"},
-
-"27af91c4-2677-4809-a1ae-a6431ae3003d":
-{"id":"27af91c4-2677-4809-a1ae-a6431ae3003d","username":"Izy446",
-"email":"yisroel@fkkdm.com","password":"$2a$10$T.Js1ssl5p6G0lXbtOTDIORz2dEmjES1pWjGG152gSOTui9NrZCx6"}
-,"6cd9e846-2588-4865-bf74-77a883493714":
-{"id":"6cd9e846-2588-4865-bf74-77a883493714","username":"Izy446","email":"boruch@fkkdm.com",
-"password":"$2a$10$PY6U7oopyfUKb7qcZXQ.HOV22moJPGNBs8BLaVFDLSpBxnkBTKQmq"}}
+{"43ceb4a3-b887-44f7-9a11-aacfbc48901a":{"id":"43ceb4a3-b887-44f7-9a11-aacfbc48901a","username":"asdgkuf","email":"yihsajkaf@fkkdm.com","password":"$2a$10$/iAYBkIXxe8u7DRizwvBM.XLHstEQ11CVkq2591v6YNNGsxme21v6"},"27af91c4-2677-4809-a1ae-a6431ae3003d":{"id":"27af91c4-2677-4809-a1ae-a6431ae3003d","username":"Izy446","email":"yisroel@fkkdm.com","password":"$2a$10$T.Js1ssl5p6G0lXbtOTDIORz2dEmjES1pWjGG152gSOTui9NrZCx6"},"6cd9e846-2588-4865-bf74-77a883493714":{"id":"6cd9e846-2588-4865-bf74-77a883493714","username":"Izy446","email":"boruch@fkkdm.com","password":"$2a$10$PY6U7oopyfUKb7qcZXQ.HOV22moJPGNBs8BLaVFDLSpBxnkBTKQmq"},"02d458b3-309d-409d-8057-04e9a571a671":{"id":"02d458b3-309d-409d-8057-04e9a571a671","username":"Izy446","email":"yakov@fkkdm.com","password":"$2a$10$2hVoq7Yufk7Stzu.6BUg.udB/clXU2TXs3NSr6nlpB3BaEeptpyv2"},"c87de56a-89e0-4357-9e80-f083e3b99761":{"id":"c87de56a-89e0-4357-9e80-f083e3b99761","username":"Izy446","email":"github@washm.com","password":"$2a$10$BHkVdGLlFfiD8yigwPMUY.g4QZcNaU3KmHwh3GBqGHFx1RAA8zG8W","bookList":[{"id":"825b70f6-564b-49db-94b6-529e76227056","author_name":["Scott Addington"],"title":"WW2"},{"id":"eb6da12b-616a-40ce-a1fe-8607ddb1ab72","author_name":["Scott Addington"],"title":"WW2"},{"id":"bac56c8a-b820-471d-802c-b847d9a3b3a4","author_name":["Scott Addington"],"title":"WW2"}]}}

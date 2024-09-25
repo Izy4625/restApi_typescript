@@ -1,27 +1,9 @@
-// import jsonfile from "jsonfile"
 
-
-// const dbfile = "./db.json";
-
-
-
-
-
-
-
-// export function addUser(user,callBack){
-//     console.log(user);
-//     jsonfile.readFile(dbfile)
-//     .then((userlist =>{
-//             userlist.push(user)
-//             jsonfile.writeFile(dbfile , userlist)
-//             .then((user)=> callBack(user))
-//     }))
-// }
 import { User, UnitUser, Users } from "./users.interface";
 import bcrypt from "bcryptjs"
 import {v4 as random} from "uuid"
 import fs from "fs"
+import { UnitBook } from "./books.interface";
 
 let users: Users = loadUsers() 
 
@@ -67,7 +49,9 @@ export const create = async (userData: UnitUser): Promise<UnitUser | null> => {
     id : id,
     username : userData.username,
     email : userData.email,
-    password: hashedPassword
+    password: hashedPassword,
+    bookList: []
+    
   };
 
   users[id] = user;
@@ -139,5 +123,22 @@ export const remove = async (id : string) : Promise<null | void> => {
     delete users[id]
 
     saveUsers()
+}
+export const addBook = async (id:string,book: UnitBook):Promise<UnitUser | null> =>{
+    const user =  await findOne(id);
+    console.log(id);
+    console.log(book);
+    if(!user){
+        return user
+    }
+    console.log(user)
+    
+    user.bookList.push(book);
+    console.log(user);
+    users[id] = user
+       
+    console.log(users[id])
+    saveUsers()
+    return users[id];
 }
 
